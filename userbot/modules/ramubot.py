@@ -58,7 +58,8 @@ async def typewriter(typew):
     await typew.edit("**rama jelek☑️**")
     await typew.edit("**rama jelek✅**")
     sleep(3)
-    await typew.edits("**CUMA DEWALA YANG GANTENG✔︎**")
+    await typew.edits("**CUMA DEWALA YANG GANTENG!!**")
+
 
 
 @register(outgoing=True, pattern='^.lahk(?: |$)(.*)')
