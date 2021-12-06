@@ -52,13 +52,10 @@ async def typewriter(typew):
     await typew.edit("**Imeh,MengRibet☑️**")
     await typew.edit("**Imeh,MengRibet✅**")
     sleep(2)
-    await typew.edit("**Jeje,Mengintil☑️**")
-    await typew.edit("**Jeje,Mengintil✅**")
-    sleep(2)
-    await typew.edit("**rama jelek☑️**")
-    await typew.edit("**rama jelek✅**")
+    await typew.edit("**rama,jelek☑️**")
+    await typew.edit("**rama,jelek✅**")
     sleep(3)
-    await typew.edits("**CUMA DEWALA YANG GANTENG!!**")
+    await typew.edit("**DEWALA GANTENG!!**")
 
 
 
