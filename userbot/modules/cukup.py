@@ -16,7 +16,7 @@ async def testing(event):
     admin = nikal.admin_rights
     creator = nikal.creator
     if not admin and not creator:
-        await event.edit("Lu bukan admin, NGENTOOOOTTTTTT!!")
+        await event.edit("Lu bukan admin, TOLLLOOOLLLLLL!!")
         return
     await event.edit("Tidak Melakukan Apa-apa")
 # Thank for Dark_Cobra
