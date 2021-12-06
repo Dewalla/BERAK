@@ -9,9 +9,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Pertama-tama kamu cantik`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`Kedua kamu Burik`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await typew.edit("`Dan yang terakhir kamu kaya anjing`")
 # Create by myself @localheart
 
 
@@ -25,10 +25,10 @@ async def typewriter(typew):
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
                      "`\n┻┳T￣|`"
-                     "\n**Permisi Aku mau nimbrung Kk..**")
+                     "\n**permisi kak boleh minta pap tt gak..**")
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.berak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Vicky Peler☑️**")
@@ -54,8 +54,11 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Jeje,Mengintil☑️**")
     await typew.edit("**Jeje,Mengintil✅**")
+    sleep(2)
+    await typew.edit("**rama jelek☑️**")
+    await typew.edit("**rama jelek✅**")
     sleep(3)
-    await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edits("**CUMA DEWALA YANG GANTENG✔︎**")
 
 
 @register(outgoing=True, pattern='^.lahk(?: |$)(.*)')
@@ -89,10 +92,10 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "rambot":
-    "`.rambot`\
+    "`.debot`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.geez`\
+    \n\n`.punten` ; `.berak`\
     \nUsage: misi."
 })
