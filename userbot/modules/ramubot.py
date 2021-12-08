@@ -89,8 +89,8 @@ async def typewriter(typew):
     await typew.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
 
 CMD_HELP.update({
-    "rambot":
-    "`.debot`\
+    "dewbot":
+    "`.dewbot`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
